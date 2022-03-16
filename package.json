@@ -1,12 +1,29 @@
 {
   "name": "code-challenge-1",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "node": "^17.7.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berbesiberbesi/LAP_1_Code_Challenge_team.git"
+  },
+  "bugs": {
+    "url": "https://github.com/berbesiberbesi/LAP_1_Code_Challenge_team/issues"
+  },
+  "homepage": "https://github.com/berbesiberbesi/LAP_1_Code_Challenge_team#readme",
+  "description": ""
 }
