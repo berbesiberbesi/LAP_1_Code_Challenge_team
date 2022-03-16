@@ -1,0 +1,21 @@
+{
+  "name": "code-challenge-1",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest - watchAll",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "anisha & luis",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
